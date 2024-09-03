@@ -7,21 +7,40 @@
     <title>Login-v2</title>
 
     <link rel="stylesheet" href="styles/loginpagev2.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
     <script defer src="scripts/loginpagev2.js"></script>
 </head>
 
+
 <body>
     <div class="page">
-        <h1 id="login-header">Login</h1>
-        <div id="login-error-msg holfrt">
-            <p id="login-error-msg">Invalid username and/or password</p>
-        </div>
+        <h1>Adopt a Pet</h1>
+        <h2>Enter your login credentials</h2>
 
-        <form id="login-form">
-            <input type="text" name="username" id="username-field" classs="login-form-field" placeholder="Username">
-            <input type="password" name="password" id="password-field" classs="login-form-field" placeholder="Password">
-            <input type="submit" value="Login" id="login-form-submit">
+        <form action="">
+            <label for="first">
+                Username:
+            </label>
+            <input type="text" id="first" name="first" placeholder="Enter your Username" required>
+
+            <label for="password">
+                Password:
+            </label>
+            <input type="pasword" id="pasword" name="password" placeholder="Enter your Password" required>
+
+            <div class="buttons-group">
+                <button type="submit" onclick="solve()">
+                    Submit
+                </button>
+            </div>
         </form>
+        <p>Not registered?
+            <a href="#" style="text-decoration: none;">
+                Create Account
+            </a>
+        </p>
+    </div>
 </body>
 
 </html>
