@@ -43,6 +43,7 @@ input{
     box-sizing: border-box;
     border: 1px solid #ddd;
     border-radius: 5px;
+    font-family: "SUSE",sans-serif;
 }
 
 
@@ -56,11 +57,22 @@ button{
     background-color: #2e223c;
     width: 100%;
     font-size:16px;
+    font-family: "SUSE",sans-serif;
 }
 
 buttons-group{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h1{
+    font-size: 60px;
+    font-family:"Matemasie",sans-serif;
+    color:#2e223c;
+}
+
+button:hover{
+    background-color: #47345c;
 }
 
